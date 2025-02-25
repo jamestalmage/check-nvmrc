@@ -1,6 +1,6 @@
 {
 	"name": "check-nvmrc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Check if the installed Node.js version matches the version specified in the .nvmrc file.",
 	"license": "MIT",
 	"repository": "jamestalmage/check-nvmrc",
