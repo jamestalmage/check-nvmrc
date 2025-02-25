@@ -1,0 +1,48 @@
+{
+	"name": "check-nvmrc",
+	"version": "1.0.0",
+	"description": "Check if the installed Node.js version matches the version specified in the .nvmrc file.",
+	"license": "MIT",
+	"repository": "jamestalmage/check-nvmrc",
+	"funding": "https://github.com/sponsors/jamestalmage",
+	"author": {
+		"name": "James Talmage",
+		"email": "james@talmage.io",
+		"url": "github.com/jamestalmage"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"bin": {
+		"check-nvmrc": "./cli.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava && tsc index.d.ts"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"cli.js"
+	],
+	"keywords": [
+		"nvmrc",
+		"cli"
+	],
+	"devDependencies": {
+		"ava": "^6.2.0",
+		"execa": "^9.5.2",
+		"typescript": "^5.7.3",
+		"xo": "^0.60.0"
+	},
+	"dependencies": {
+		"find-up": "^7.0.0",
+		"nvexeca": "^11.0.1",
+		"semver": "^7.7.1"
+	}
+}
