@@ -36,13 +36,12 @@
 	],
 	"devDependencies": {
 		"ava": "^6.2.0",
-		"execa": "^9.5.2",
 		"typescript": "^5.7.3",
+		"nvexeca": "^11.0.1",
 		"xo": "^0.60.0"
 	},
 	"dependencies": {
 		"find-up": "^7.0.0",
-		"nvexeca": "^11.0.1",
 		"semver": "^7.7.1"
 	}
 }
