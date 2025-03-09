@@ -12,6 +12,13 @@ export type Options = {
 	@default true
 	 */
 	readonly allowSymlinks?: boolean;
+
+	/**
+	Filename to search for.
+
+	@default '.nvmrc'
+	 */
+	readonly filename?: string;
 };
 
 /**
